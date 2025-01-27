@@ -4,6 +4,7 @@ import Benefits from "../sections/Benefits";
 import TopBar from "@/components/Topbar";
 import Collaborators from "../sections/Collaborators";
 import AboutUs from "@/sections/AboutUs";
+import Contact from "@/sections/Contact";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <AboutUs/>
       <Collaborators/>
       <Benefits/>
+      <Contact/>
     </>
   );
 }
