@@ -6,7 +6,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
        <head>
-        <link rel="icon" href="/ieee-cs-icon.webp" type="image/webp" />
         <link rel="icon" href="/ieee-cs-icon.png" type="image/png" />
         <title>IEEE-CS UNMSM</title>
       </head>
