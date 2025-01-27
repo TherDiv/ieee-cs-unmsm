@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personaliza tus estilos aquí */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
