@@ -5,13 +5,14 @@ import Footer from "../components/Footer";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-       <head>
+      <head>
         <link rel="icon" href="/ieee-cs-icon.png" type="image/png" />
         <title>IEEE-CS UNMSM</title>
       </head>
       <body className="flex flex-col min-h-screen">
-        {/* El Header fue eliminado del layout */}
+        {/* Contenido principal */}
         <main className="flex-grow">{children}</main>
+        {/* Footer común */}
         <Footer />
       </body>
     </html>
