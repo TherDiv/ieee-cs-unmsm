@@ -1,14 +1,17 @@
 import { ReactNode } from "react";
-import "../globals.css";
-import Header from "../components/Header";
+import "@/app/globals.css";
 import Footer from "../components/Footer";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 text-gray-900">
-        <Header />
-        <main>{children}</main>
+       <head>
+        <link rel="icon" href="/ieee-cs-icon.webp" type="image/webp" />
+        <title>IEEE-CS UNMSM</title>
+      </head>
+      <body className="flex flex-col min-h-screen">
+        {/* El Header fue eliminado del layout */}
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

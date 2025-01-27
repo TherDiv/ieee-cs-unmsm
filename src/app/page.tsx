@@ -1,9 +1,13 @@
+import Header from "../components/Header";
 import Hero from "../sections/Hero";
+import Benefits from "../sections/Benefits";
 
 export default function HomePage() {
   return (
     <>
-      <Hero title="Fueling Computer Science and Technology" subtitle="About the IEEE Computer Society" />
+      <Header />
+      <Hero />
+      <Benefits/>
     </>
   );
 }

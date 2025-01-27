@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Personaliza tus estilos aquí */
 body {
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
+  font-family: 'Arial', sans-serif; /* O cualquier fuente que prefieras */
 }
