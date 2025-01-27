@@ -5,19 +5,22 @@ export default function Hero() {
         {/* Sección de Texto */}
         <div className="pl-8">
           <h2 className="text-orange-600 text-sm font-bold uppercase mb-2">
-            ABOUT THE IEEE COMPUTER SOCIETY
+            RAMA COMPUTER SOCIETY
           </h2>
           <h1 className="text-blue-900 text-4xl font-bold leading-tight mb-6">
-            Fueling Computer Science <br /> and Technology
+            Impulsando la Ciencia y Tecnología <br /> desde la UNMSM{" "}
           </h1>
           <p className="text-gray-700 text-lg mb-6">
-            Inspiring innovation and collaboration through cutting-edge technology.
+            El IEEE Computer Society de San Marcos reúne a estudiantes y
+            profesionales apasionados por la tecnología y la innovación,
+            promoviendo el desarrollo de soluciones que impacten positivamente a
+            nuestra comunidad y el país.
           </p>
           <a
             href="#"
             className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:bg-blue-700 transition"
           >
-            Learn More →
+            Ver más →
           </a>
         </div>
 
