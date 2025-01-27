@@ -7,6 +7,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
        <head>
         <link rel="icon" href="/ieee-cs-icon.webp" type="image/webp" />
+        <link rel="icon" href="/ieee-cs-icon.png" type="image/png" />
         <title>IEEE-CS UNMSM</title>
       </head>
       <body className="flex flex-col min-h-screen">
