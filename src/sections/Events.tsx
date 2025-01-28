@@ -1,6 +1,6 @@
 export default function Events() {
     return (
-      <section className="py-16 bg-gray-50">
+      <section id="events" className="py-16 bg-gray-50">
         <div className="container mx-auto">
           <h2 className="text-blue-900 text-3xl font-bold text-center mb-6">Eventos</h2>
           <p className="text-center text-gray-600 mb-8">

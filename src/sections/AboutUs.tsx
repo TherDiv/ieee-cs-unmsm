@@ -1,6 +1,6 @@
 export default function AboutUs() {
     return (
-      <section className="py-16 bg-white">
+      <section id="about-us" className="py-16 bg-white">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Imagen */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 mr-6">

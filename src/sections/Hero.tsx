@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative bg-blue-50 py-16">
+    <section id="hero" className="relative bg-blue-50 py-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Sección de Texto */}
         <div className="pl-8">

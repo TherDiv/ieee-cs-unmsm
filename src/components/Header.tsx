@@ -1,3 +1,7 @@
+"use client";
+
+import { Link } from "react-scroll";
+
 export default function Header() {
   return (
     <header className="bg-white shadow-md">
@@ -5,9 +9,9 @@ export default function Header() {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            src="/IEEE_Computer.png" // Ruta del logo
+            src="/IEEE_Computer.png" 
             alt="IEEE-CS Logo"
-            className="h-14" // Ajusta la altura del logo
+            className="h-14" 
           />
         </a>
 
@@ -15,64 +19,74 @@ export default function Header() {
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium"
+              <Link
+                to="hero"
+                smooth={true}
+                duration={500}
+                offset={-70} 
+                className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer"
               >
                 Inicio
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium"
+              <Link
+                to="about-us"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer"
               >
                 Quiénes somos
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium"
+              <Link
+                to="collaborators"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer"
               >
                 Colaboradores
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium"
+              <Link
+                to="benefits"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer"
               >
                 Beneficios
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium"
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="text-gray-700 hover:text-blue-600 font-medium cursor-pointer"
               >
                 Contacto
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="text-gray-700 hover:text-blue-600 font-medium"
-              >
-                Eventos
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
 
         {/* Botón de acción */}
         <div>
-          <a
-            href="#"
-            className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600"
+          <Link
+            to="register"
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 cursor-pointer"
           >
             <strong>Quiero ser colaborador</strong>
-          </a>
+          </Link>
         </div>
       </div>
     </header>
